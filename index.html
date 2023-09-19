@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Documents </title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-wrapper">
+      <div class="container d-flex align-center justify-between">
+        <div class="d-flex align-center">
+          <div class="hamburger-icon">
+            <button onclick="toggleSidebar()"></button>
+          </div>
+          <div class="header-logo">
+            <a href="./">
+              <img src="https://www.goomlandscapes.co.nz/wp-content/uploads/2018/08/logo-placeholder.png" alt="company-logo">
+            </a>
+          </div>
+        </div>
+        <div class="search-bar-wrapper">
+          <input type="text" placeholder="Search Legal Documents">
+        </div>
+        <div class="account-cta">
+          <a href="./signup.html" rel="noopener noreferrer">
+            Sign Up
+          </a>
+          <a href="./login.html" rel="noopener noreferrer">
+            Log In
+          </a>
+        </div>
+        <div class="mobile-menu-header">
+          <button onclick="toggleSearchBar()" class="search-btn"></button>
+          <button onclick="toggleAccountMenu()" class="account-menu-btn"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-wrapper">
+    <div class="container container-body">
+
+      <div class="filters-list">
+        <a href="#" class="active">All</a>
+        <a href="#">Business</a>
+        <a href="#">Contracts</a>
+        <a href="#">Real Estate</a>
+        <a href="#">Family</a>
+        <a href="#">Personal</a>
+      </div>
+
+      <div class="images-list">
+
+        <div class="image-item-wrapper">
+          <img class="item-img" src="https://signaturely.com/wp-content/uploads/2022/08/rental-agreement-uplead-791x1024.jpg">
+          <span class="badge">
+            Real Estate
+          </span>
+          <div class="image-options d-flex align-center justify-between">
+            <a>Rental Agreement</a>
+          </div>
+        </div>
+
+        <div class="image-item-wrapper">
+          <img class="item-img" src="https://signaturely.com/wp-content/uploads/2022/08/loan-agreement-uplead-791x1024.jpg">
+          <span class="badge">
+            Personal
+          </span>
+          <div class="image-options d-flex align-center justify-between">
+            <a>Loan Agreement</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-wrapper">
+      <div class="container">
+        <div class="footer-content d-flex align-center justify-between">
+          <ul class="d-flex align-center">
+            <li>
+              <a href="#">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Terms n Conditions
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Contact Us
+              </a>
+            </li>
+          </ul>          
+          <span>
+            &copy; Co Name 2023
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
